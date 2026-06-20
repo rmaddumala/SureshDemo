@@ -31,7 +31,7 @@ jobs:
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
-        image: smaddumala/suri_devops1
+        image: smaddumala/repository/docker/suri_devops1
         registry: hub.docker.com
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
